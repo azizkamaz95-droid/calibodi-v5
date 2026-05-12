@@ -1,0 +1,30 @@
+{
+  "appId": "app.calibodi",
+  "appName": "CaliBodi",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#080C18"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2500,
+      "launchAutoHide": true,
+      "backgroundColor": "#080C18",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "dark",
+      "backgroundColor": "#080C18"
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_calibodi",
+      "iconColor": "#FF6B2B",
+      "sound": "beep.wav"
+    }
+  }
+}
