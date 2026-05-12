@@ -1,0 +1,20 @@
+{
+  "name": "calibodi",
+  "version": "7.0.0",
+  "description": "CaliBodi — Fitness IA · Corps · Nutrition · Hydratation",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Static PWA — no build needed'",
+    "sync": "npx cap sync android",
+    "open:android": "npx cap open android",
+    "apk:debug": "cd android && ./gradlew assembleDebug",
+    "apk:release": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.0",
+    "@capacitor/core": "6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.0"
+  }
+}
